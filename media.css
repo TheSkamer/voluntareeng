@@ -1,0 +1,107 @@
+@media(max-width: 768px){
+
+		header{
+	width: 100vw;
+		}
+	.menu{
+	padding: .5rem;
+	font-size:1rem;
+
+
+}
+.bg_class1{
+	height: auto;
+}
+.bg_class2{
+	height: auto;
+}
+.donate{
+	padding: 6px 2.5rem;
+
+
+}
+	.head1 {
+		text-align: center;
+		width: 100% ;
+		display: flex;
+
+	}
+	.head1 h1{
+	width: 100%;
+	font-size: 15vw;
+}
+	.head1 p{
+	font-size: 1.5rem;
+	width: 100%;
+}
+	.buttons {
+	width: 100%;
+        height: auto;
+
+    flex-wrap: nowrap;
+}
+	.button {
+    display: block;
+    width: 100%;
+    height:auto;
+  	margin-top: 3%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: row;
+    margin-right: 0;
+}
+
+
+.button button {
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgba(255,255,255,0.1);
+    border: 0;
+    box-shadow: 0;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+    backdrop-filter: blur(3px);
+    font-family: sans-serif;
+
+}
+.button span{
+	    display: block;
+   font-size: 1rem;
+    padding: 1rem 0;
+    color: #eee;
+}
+.button h3{
+	font-size: 1rem;
+}
+.btn-donate{
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+}
+@media(min-width: 1442px){
+
+		.head1 h1{
+			font-size:7vw;
+		}
+		.head1 p{
+			font-size:2vw;
+		}
+	.button{
+	background-color: rgba(0,0,0,0.5);
+	padding: 1rem 1rem;
+	max-width: 	1400px;
+	}
+	.donate{
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+		border: 5px dashed #eee;
+		border-radius: 2.5vw;
+		box-shadow: 0;
+		color: white;
+		padding: .6rem 6rem;
+		margin: 5%;
+		font-size:2vw;
+}
+}
