@@ -12,15 +12,20 @@ header{
 	text-align: center;
 	top:0;
 	background-color: rgba(0,0,0,.5);
-	transition: top 0.5s;
+	transition: top 0.4s;
 }	
 .menu{
 	text-decoration: none;
 	color: #eee;
 	padding: 1rem;
 	font-size:1.5rem;
+	transition: background-color 0.5s,color 0.5s;
 
 
+}
+.menu:hover{
+	background-color: #ddd;
+	color: rgba(0,0,0,.6);
 }
 
 .header{
